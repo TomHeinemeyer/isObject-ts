@@ -1,9 +1,25 @@
 {
   "name": "isobject-ts",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Tom Heinemeyer",
   "license": "MIT",
   "description": "Determine wether something is an object, with TypeScript support.",
+  "keywords": [
+    "check",
+    "is-object",
+    "is-object-ts",
+    "isobject",
+    "isobjectts",
+    "object",
+    "type",
+    "typeof",
+    "value",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TomHeinemeyer/isObject-ts.git"
+  },
   "type": "module",
   "exports": {
     ".": {
