@@ -48,5 +48,5 @@ isObject(null)
 
 ### License
 
-Copyright © 2019, [Tom Heinemeyer](https://github.com/TomHeinemeyer).
+Copyright © 2024, [Tom Heinemeyer](https://github.com/TomHeinemeyer).
 Released under the [MIT License](LICENSE).
