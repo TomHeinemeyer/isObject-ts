@@ -1,6 +1,6 @@
 # isobject-ts [![NPM version](https://img.shields.io/npm/v/isobject-ts.svg?style=flat)](https://www.npmjs.com/package/isobject-ts) [![NPM monthly downloads](https://img.shields.io/npm/dm/isobject-ts.svg?style=flat)](https://npmjs.org/package/isobject-ts) [![NPM total downloads](https://img.shields.io/npm/dt/isobject-ts.svg?style=flat)](https://npmjs.org/package/isobject-ts)
 
-> Uses a type guard to return if a value is an actual object. The resulting type is `Record<string, unknown>`.
+> Return `true`, if a given value is an object. Uses a type guard for Typescript users to return additional type information. The type returned is `Record<string | number | symbol, unknown>`.
 
 ## Install
 
