@@ -28,8 +28,6 @@ isObject(new Foo())
 isObject(/foo/)
 ```
 
-**False**
-
 All of the following return `false`:
 
 ```js
