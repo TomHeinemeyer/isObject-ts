@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "Preserve",
-    "forceConsistentCasingInFileNames": true,
+    "target": "ES2019",
+    "module": "ESNext",
     "strict": true,
-    "outDir": "./dist",
+    "outDir": "dist",
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true
   },
-  "exclude": ["src/test.ts"]
+  "exclude": ["src/test.ts", "dist"]
 }
