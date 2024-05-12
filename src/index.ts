@@ -1,5 +1,5 @@
 /*!
- * isobject-ts <https://github.com/TomHeinemeyer/isobject-ts>
+ * isobject-ts <https://github.com/TomHeinemeyer/isObject-ts>
  *
  * Copyright (c) 2024, Tom Heinemeyer.
  * Released under the MIT License.
