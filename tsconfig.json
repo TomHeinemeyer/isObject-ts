@@ -3,11 +3,7 @@
     "target": "ES2019",
     "module": "ESNext",
     "strict": true,
-    "outDir": "dist",
-    "skipLibCheck": true,
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true
+    "skipLibCheck": true
   },
-  "exclude": ["src/test.ts", "dist"]
+  "include": ["src/*.ts"]
 }

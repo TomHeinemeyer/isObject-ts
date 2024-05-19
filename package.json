@@ -36,9 +36,10 @@
     "!test.ts"
   ],
   "scripts": {
-    "compile": "tsc",
+    "compile": "tsc -p tsconfig.build.json",
     "build:clean": "Powershell Remove-Item -LiteralPath './dist' -Force -Recurse -ErrorAction Ignore",
     "build": "run-s --continue-on-error build:clean compile",
+    "typecheck": "tsc --noEmit",
     "test": "jest"
   },
   "devDependencies": {
