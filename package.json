@@ -1,9 +1,26 @@
 {
   "name": "isobject-ts",
-  "version": "1.0.7",
-  "author": "Tom Heinemeyer (https://github.com/TomHeinemeyer)",
-  "license": "MIT",
+  "version": "1.0.8",
   "description": "Determine wether something is an object, with TypeScript support.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist",
+    "/src",
+    "!test.ts"
+  ],
+  "type": "module",
+  "scripts": {
+    "compile": "tsc -p tsconfig.build.json",
+    "build:clean": "Powershell Remove-Item -LiteralPath './dist' -Force -Recurse -ErrorAction Ignore",
+    "build": "run-s --continue-on-error build:clean compile",
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomHeinemeyer/isobject-ts.git"
+  },
   "keywords": [
     "check",
     "is-object",
@@ -16,32 +33,12 @@
     "value",
     "typescript"
   ],
-  "homepage": "https://github.com/TomHeinemeyer/isobject-ts",
-  "contributors": [
-    "Tom Heinemeyer (https://github.com/TomHeinemeyer)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TomHeinemeyer/isobject-ts.git"
-  },
+  "author": "Tom Heinemeyer",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TomHeinemeyer/isobject-ts/issues"
   },
-  "type": "module",
-  "types": "./dist/index.d.ts",
-  "main": "./dist/index.js",
-  "files": [
-    "/dist",
-    "/src",
-    "!test.ts"
-  ],
-  "scripts": {
-    "compile": "tsc -p tsconfig.build.json",
-    "build:clean": "Powershell Remove-Item -LiteralPath './dist' -Force -Recurse -ErrorAction Ignore",
-    "build": "run-s --continue-on-error build:clean compile",
-    "typecheck": "tsc --noEmit",
-    "test": "jest"
-  },
+  "homepage": "https://github.com/TomHeinemeyer/isobject-ts#readme",
   "devDependencies": {
     "@types/jest": "29.5.12",
     "jest": "29.7.0",
